@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Plus Wk6 Ls4: My Awesome Weather App</title>
+    <title>Wireframe to HTML/CSS</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script
@@ -20,7 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link href="style.css"/>
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
 
   <body>
@@ -73,25 +73,15 @@
 
         <div class="row mx-1">
           <div class="col-4">
-            <div>
-              Monday, 3:28 pm
-            </div>
+            <div>Monday, 3:28 pm</div>
             <div>
               <span>H: 22˚</span>
               <span>L: 9˚</span>
             </div>
-            <div>
-              Precipitation: 2%
-            </div>
-            <div>
-              Humidity: 63%
-            </div>
-            <div>
-              Wind: 8 mph
-            </div>
-            <span class="display-1 fw-bold">
-              21˚
-            </span>
+            <div>Precipitation: 2%</div>
+            <div>Humidity: 63%</div>
+            <div>Wind: 8 mph</div>
+            <span class="display-1 fw-bold"> 21˚ </span>
           </div>
           <div class="col">
             <div class="text-end">
@@ -104,7 +94,7 @@
                 src="images/partly-cloudy.png"
                 alt="Partly Cloudy "
                 class="d-block"
-                width="150px"
+                width="150"
                 id="current-forecast"
               />
               <span>Partly Cloudy</span>
@@ -125,7 +115,7 @@
                 src="images/scattered-showers.png"
                 alt="Scattered Showers"
                 class="d-block"
-                width="60px"
+                width="60"
               />
               <span>23˚/16˚</span>
             </div>
@@ -139,7 +129,7 @@
                 src="images/showers.png"
                 alt="showers"
                 class="d-block"
-                width="60px"
+                width="60"
               />
               <span>21˚/8˚</span>
             </div>
@@ -153,7 +143,7 @@
                 src="images/partly-cloudy.png"
                 alt="Partly Cloudy"
                 class="d-block"
-                width="72px"
+                width="72"
               />
               <span>18˚/6˚</span>
             </div>
@@ -167,7 +157,7 @@
                 src="images/cloudy-lightrain.png"
                 alt="Cloudy light-Rain"
                 class="d-block"
-                width="61px"
+                width="61"
               />
               <span>16˚/6˚</span>
             </div>
@@ -181,7 +171,7 @@
                 src="images/sunny.png"
                 alt="Sunny"
                 class="d-block"
-                width="53px"
+                width="53"
               />
               <span>19˚/5˚</span>
             </div>
@@ -189,16 +179,12 @@
         </div>
       </div>
       <div class="footer">
-          This page was built with ♡ by
-          <a
-            href="https://www.linkedin.com/in/fatima-m/"
-            target="_blank"
-          >
-            Fatima M.
-          </a>
-        </div>
-
-    <script src="script.js"></script>
+        This page was built with ♡ by
+        <a href="https://www.linkedin.com/in/fatima-m/" target="_blank">
+          Fatima M.
+        </a>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
-
